@@ -17,11 +17,14 @@ a.anchor{
 	border-radius: 5px;
 	padding: 5px;
 	max-width: 25%;
+  min-width: 15%;
 	max-height: 100%;
 	display: inline-block;
+
 }
 .button{
     border-radius: 5px;
+    min-width: 20%;
 }
 .divider{
     width:100%;
@@ -81,4 +84,16 @@ background:#FAFAFA;
 .alert{
 	display: none;
 }
+
+}
+.code{
+  color:#008500;
+  background-color: #F7F7F9;
+  border: 1px solid #E1E1E8;
+  font-family: Courier;
+  font-size: 15px;
+}
+.created {
+  color: #DDD;
+  float: right;
 }
