@@ -14,14 +14,14 @@ a.anchor{
 	visibility: hidden;
 }
 .alert{
-	border-radius: 0px;
+	border-radius: 5px;
 	padding: 5px;
 	max-width: 25%;
 	max-height: 100%;
 	display: inline-block;
 }
 .button{
-    border-radius: 0px;
+    border-radius: 5px;
 }
 .divider{
     width:100%;
