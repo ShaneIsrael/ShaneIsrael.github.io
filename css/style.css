@@ -22,6 +22,30 @@ a.anchor{
 	display: inline-block;
 
 }
+
+
+.textbox {
+border-radius:3px;
+margin:10px 0;
+padding:15px;
+}
+
+.textbox.primary {
+background:#e8eff3;
+border:1px #c5d7e3 solid;
+}
+
+.textbox.success {
+background:#daeee4;
+border:1px #b6dfca solid;
+}
+
+.textbox.danger {
+background:#fdf4f1;
+border:1px #f7cfc4 solid;
+}
+
+
 .button{
     border-radius: 5px;
     min-width: 20%;
