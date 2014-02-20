@@ -49,6 +49,7 @@ border:1px #f7cfc4 solid;
 .button{
     border-radius: 5px;
     min-width: 20%;
+    cursor: pointer;
 }
 .divider{
     width:100%;
@@ -121,6 +122,8 @@ background:#FAFAFA;
   color: #C2C2C2;
   float: right;
 }
+
+
 
 /*CSS for shaking items*/
 .link-container a,
