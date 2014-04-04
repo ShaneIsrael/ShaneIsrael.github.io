@@ -1,76 +1,37 @@
-<!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <title>Shane Israel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/css/bijou.css">
-        <link rel="stylesheet" href="/css/style.css">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>HelloApplet!</title>
+  </head>
+  <body>
 
-  ga('create', 'UA-49245777-1', 'shaneisrael.com');
-  ga('send', 'pageview');
+  <div id="applet_container">
+  <applet code="org.lwjgl.util.applet.AppletLoader" archive="lwjgl_util_applet.jar" codebase="." width="384" height="640">
+  
+    <param name="al_title" value="Pixel Rain Puzzle">
+    <param name="al_main" value="com.pixelrain">
+    <param name="al_logo" value="appletlogo.png">
+    <param name="al_progressbar" value="appletprogress.gif">
 
-</script>
-        <script type="text/javascript" src="/scripts/jwplayer.js" ></script>
-        <script type="text/javascript">jwplayer.key="th27t4pwEFqpIRPBqdU8xnwlR3Yv/vW8Si8yNQ==";</script>
-    </head>
-    <body>
+    <param name="al_bgcolor" value="000000">
+    <param name="al_fgcolor" value="ffffff">
+    
+    <param name="al_jars" value="PixelRainApplet.jar, gdx.jar, gdx-backend-lwjgl.jar">
 
-        <div class='navbar fixed'>
-            <div class='container'>
-                <a href='/'><h4 class='title pull-left'>Shane Israel</h4></a>
-                <ul class='navlocs pull-right'>
-                    <li class='shake-me'><a class='selected' href='#'>Home</a></li>
-                    <li class='shake-me'><a href='/games'>Games</a></li>
-                    <li class='shake-me'><a href='/apps'>Apps</a></li>
-					<li class='shake-me'><a href='https://github.com/ShaneIsrael'>GitHub</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class='container'>
-            <div class='center row'>
-                <div class='span ten textbox primary'>
-                    <div id="playerjcPDbxDUaJEf_wrapper" style="position: relative; display: block; width: 640px; height: 360px;"><object type="application/x-shockwave-flash" data="" width="100%" height="100%" bgcolor="#000000" id="playerjcPDbxDUaJEf" name="playerjcPDbxDUaJEf" tabindex="0"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="seamlesstabbing" value="true"><param name="wmode" value="opaque"></object><div id="playerjcPDbxDUaJEf_aspect" style="display: none;"></div><div id="playerjcPDbxDUaJEf_jwpsrv" style="position: absolute; top: 0px; z-index: 10;"></div></div>
+    <param name="al_windows" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    <param name="al_linux" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    <param name="al_mac" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    <param name="al_solaris" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    
+    <param name="codebase_lookup" value="false">
 
-                        <script type="text/javascript">
-                            jwplayer("playerjcPDbxDUaJEf").setup({
-                                file: "rtmp://localhost/oflaDemo",
-                                height: 360,
-                                image: "/uploads/example.jpg",
-                                rtmp: {bufferlength: 0.1},
-                                width: 640
-                            });
-                    </script>
-                </div>
-            </div>
-            <div class='center row'>
-                <div class='span ten'>
-                    <a href='./games'>
-                        <button class='shake-me button primary large'>My Games</button>
-                    </a>
-                </div>
-                 <div class='center row'>
-                <div class='span ten'>
-                    <a href='./apps'>
-                        <button class='shake-me button primary large'>My Applications</button>
-                    </a>
-                </div>
-            </div>
-            </div>
-        </div>
-            <div class='center row'>
-                <div class='span ten'>
-                    <style>
-                        #bottomDiv { position: fixed; bottom: 0; width: 100%; text-align: center;}
-                    </style>
+    <param name="java_arguments" value="-Dsun.java2d.noddraw=true -Dsun.awt.noerasebackground=true -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.pmoffscreen=false -Xmx800M">
+   <param name="lwjgl_arguments" value="-Dorg.lwjgl.input.Mouse.allowNegativeMouseCoords=true">
+    <param name="separate_jvm" value="true">
+    <param name="codebase_lookup" value="false">
+  </applet>
+  </div>
+  
 
-                    <div id="bottomDiv"><small>Design inspired by <a href='http://nolat.org'>nolat.org</a>.</small></div>
-                </div>
-            </div>
-    </body>
+  </body>
 </html>
-
