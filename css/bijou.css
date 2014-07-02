@@ -43,6 +43,10 @@ min-height:1em;
 margin:0 2% 20px;
 }
 
+.nomargin {
+	margin: 0;
+}
+
 .center{
 	margin-left: auto;
 	margin-right: auto;
